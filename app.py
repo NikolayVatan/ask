@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from Ask2 import search
+from ask import search
 
 app = Flask(__name__)
 
